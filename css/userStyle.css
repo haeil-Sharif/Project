@@ -11,6 +11,9 @@ body {
 	padding: 0;
 	margin: 0;
 	background: #f8f9fa;
+	position: relative;
+	position: 58px;
+	min-height: 100vh;
 }
 
 	/*Global*/
@@ -87,7 +90,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  	color: blue;
+  	color: #1070CA;
 }
 
 li.dropdown {
@@ -118,6 +121,20 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   	display: block;
+}
+
+/* Footer */
+footer {
+	position: absolute;
+	padding: 10px;
+	margin-top: 20px;
+	color: #000;
+	background-color: #eff3f5;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+
+
 }
 
 /*Home*/
